@@ -1,4 +1,4 @@
-Beim Semantic Web handelt es sich um einen Ansatz, das Internet um maschinenlesbare, formalisierte Daten zu erweitern. Dabei geht es um die Vernetzung und Verknüpfung von Informationen auf eine strukturierte und standardisierte Art und Weise. Einer Maschine soll es möglich sein, durch zusätzlich bereitgestellte Daten die Bedeutung einer Information verarbeiten zu können. In diesem Zusammenhang wird die Information durch einen [[Semantik|semantischen Kontext]] angereichert.
+Beim Semantic Web handelt es sich um einen Ansatz, das Internet um maschinenlesbare, formalisierte Daten zu erweitern. Dabei geht es um die Vernetzung und Verknüpfung von Informationen auf eine strukturierte und standardisierte Art und Weise. Einer Maschine soll es möglich sein, durch zusätzlich bereitgestellte Daten die Bedeutung einer Information verarbeiten zu können. In diesem Zusammenhang wird die Information mit [[Semantik|semantischem Kontext]] angereichert.
 
 ![[1.png]]
 
