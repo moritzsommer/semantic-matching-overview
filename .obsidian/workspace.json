@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Semantic Web.md",
+                "file": "Semantik.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Semantic Web.md",
+                "file": "Semantik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Semantic Web.md",
+                "file": "Semantik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Semantic Web.md"
+                "file": "Semantik.md"
               }
             }
           }
@@ -148,9 +148,9 @@
   },
   "active": "2ad62fd14b990540",
   "lastOpenFiles": [
-    "Semantik.md",
-    "Semantic Web.md",
     "OWL-Ontologien.md",
+    "Semantic Web.md",
+    "Semantik.md",
     "Formalien/Inoffizielle Literatur.md",
     "Formalien/Literatur.md",
     "Formalien/Abbildungsverzeichnis.md",
