@@ -1,0 +1,1 @@
+([[1.png]]) https://de.wikipedia.org/wiki/Semantic_Web#/media/Datei:RDF_example.svg
