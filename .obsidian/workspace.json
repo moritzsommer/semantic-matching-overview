@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e38356838e641f1",
+        "id": "25c7b5e4f2e33d14",
         "type": "tabs",
         "children": [
           {
-            "id": "2ad62fd14b990540",
+            "id": "01d954f7697e4a9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,17 +146,18 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "2ad62fd14b990540",
+  "active": "01d954f7697e4a9e",
   "lastOpenFiles": [
-    "OWL-Ontologien.md",
     "Semantic Web.md",
     "Semantik.md",
+    "README.md",
+    "OWL-Ontologien.md",
+    "Index.md",
     "Formalien/Inoffizielle Literatur.md",
     "Formalien/Literatur.md",
     "Formalien/Abbildungsverzeichnis.md",
     "Formalien/Abbildungen/1.png",
     "Formalien/Abbildungen/1 1.png",
-    "Index.md",
     "Formalien/Abbildungen",
     "Formalien/Unterlagen/Übersicht.pdf",
     "test.md",
