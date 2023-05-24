@@ -2,4 +2,6 @@
 
 (2) Ulrich Ultes-Nitsche. 2014. Web 3.0 – wohin geht es mit dem World Wide Web?. https://doi.org/10.1007/BF03340433. Springer Nature. 1-9.
 
-(3) Michael Uschold. 2003. Where Are the Semantics in the Semantic Web?. https://doi.org/10.1609/aimag.v24i3.1716. 25-32.
+(3) Michael Uschold. 2003. Where Are the Semantics in the Semantic Web?. https://doi.org/10.1609/aimag.v24i3.1716. AAAI. 25-32.
+
+(4) Pavel Shvaiko and Jérôme Euzenat. 2013. Ontology Matching: State of the Art and Future Challenges. IEEE. https://doi.org/10.1109/TKDE.2011.253

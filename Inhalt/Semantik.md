@@ -1,0 +1,5 @@
+Semantik beschreibt die Beziehung zwischen der Darstellung und Bedeutung von Information.
+
+Im Kontext des Semantic Web bezieht sich der Begriff auf die Bedeutung von Daten und deren Beziehungen untereinander. [[Literatur|(1)]]
+
+Als vereinfachtes Beispiel kann hierbei eine frei ausgedachte Maschine $A$ dienen, welche mit einem zweiten Gerät $B$ interagieren soll. Über $B$ ist lediglich bekannt, dass es sich bei dem Gerät um ein *Magnetlager* handelt. Ohne weitere Informationen über die Bedeutung dieses Begriffs können einige Missverständnisse auftreten. Neben der rein syntaktischen Darstellung des Begriffs *Magnetlager* muss somit ein semantischer Kontext definiert werden. Dieser sollte deutlich machen, ob es sich bei $B$ um ein Maschinenelement (zum kontaktlosen Führen gegeneinander beweglicher Bauteile) oder um eine Halle zur Aufbewahrung von Magneten handelt. [[Literatur|(2)]] [[Literatur|(3)]] Die Semantik hinter dem Begriff *Magnetlager* stellt also die Grundlage dafür dar, wie $B$ mit $A$ interagieren soll.
