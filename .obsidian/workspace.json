@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0678f7f0d9aabe20",
+        "id": "4958a35a740f3ce3",
         "type": "tabs",
         "children": [
           {
-            "id": "cd0609cfd4e21e48",
+            "id": "ac6c8384d50d933b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Index.md",
+                "file": "Inhalt/Ontology Matching.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "235d61ad73b97d8a",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "Inhalt/Ontology Matching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Index.md",
+                "file": "Inhalt/Ontology Matching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Index.md"
+                "file": "Inhalt/Ontology Matching.md"
               }
             }
           }
@@ -154,27 +154,40 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "cd0609cfd4e21e48",
+  "active": "ac6c8384d50d933b",
   "lastOpenFiles": [
-    "README.md",
-    "Unbenannt.canvas",
-    "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
-    "Inhalt/OWL-Ontologien.md",
-    "Inhalt/Ontology Matching.md",
     "Inhalt/OWL.md",
-    "Formalien/Literatur.md",
-    "Formalien/Inoffizielle Literatur.md",
-    "Inhalt/Semantik.md",
-    "Inhalt/Semantic Web.md",
-    "Inhalt/XML.md",
-    "Index.md",
+    "Inhalt/OWL-Ontologien.md",
     "Inhalt/RDF.md",
+    "Inhalt/Semantic Web.md",
+    "Inhalt/Semantik.md",
+    "Inhalt/URI.md",
+    "Inhalt/XML.md",
+    "Temp Fragen.md",
+    "Inhalt/Ontology Matching.md",
+    "Index.md",
+    "README.md",
+    "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
     "Formalien/Unterlagen/Zeitplan_Moritz_Sommer.pdf",
+    "Formalien/Abbildungen/1.png",
+    "Formalien/Abbildungen/Beispiel_Alignment.png",
+    "Formalien/Abbildungen/RDF_Graph.png",
+    "Formalien/Inoffizielle Literatur.md",
+    "Formalien/Abbildungsverzeichnis.md",
+    "Formalien/Literatur.md",
+    "AgreementMaker.md",
+    "2023-05-25.md",
+    "Unbenannt.canvas",
+    "Unbenannt 2.canvas",
+    "Unbenannt 3.canvas",
+    "Unbenannt 4.canvas",
+    "Unbenannt 1.canvas",
+    "Inhalt/Ontologie.md",
+    "Inhalt/Unbenannt.md",
+    "Ontologien.md",
     "Formalien/Unterlagen/Übersicht.pdf",
     "Formalien/Unterlagen/Dokument01.pdf",
-    "Formalien/Abbildungsverzeichnis.md",
     "Inhalt",
-    "Formalien/Abbildungen/1.png",
     "Formalien/Abbildungen/1 1.png",
     "Formalien/Abbildungen",
     "test.md",
