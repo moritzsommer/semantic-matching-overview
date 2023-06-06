@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4958a35a740f3ce3",
+        "id": "302183a48c541e5c",
         "type": "tabs",
         "children": [
           {
-            "id": "ac6c8384d50d933b",
+            "id": "fc3a56a06be46a8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -154,19 +154,24 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "ac6c8384d50d933b",
+  "active": "fc3a56a06be46a8e",
   "lastOpenFiles": [
-    "Inhalt/OWL.md",
-    "Inhalt/OWL-Ontologien.md",
-    "Inhalt/RDF.md",
-    "Inhalt/Semantic Web.md",
-    "Inhalt/Semantik.md",
-    "Inhalt/URI.md",
-    "Inhalt/XML.md",
+    "Temp Ideen.md",
     "Temp Fragen.md",
     "Inhalt/Ontology Matching.md",
-    "Index.md",
     "README.md",
+    "Formalien/Unbenannt.md",
+    "Inhalt/Unbenannt.md",
+    "Index.md",
+    "Inhalt/XML.md",
+    "Inhalt/URI.md",
+    "Inhalt/Semantik.md",
+    "Inhalt/Semantic Web.md",
+    "Inhalt/RDF.md",
+    "Inhalt/OWL-Ontologien.md",
+    "Inhalt/OWL.md",
+    "Formalien/Abbildungen/eval.png",
+    "Formalien/Abbildungen/eval 1.png",
     "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
     "Formalien/Unterlagen/Zeitplan_Moritz_Sommer.pdf",
     "Formalien/Abbildungen/1.png",
@@ -183,7 +188,6 @@
     "Unbenannt 4.canvas",
     "Unbenannt 1.canvas",
     "Inhalt/Ontologie.md",
-    "Inhalt/Unbenannt.md",
     "Ontologien.md",
     "Formalien/Unterlagen/Übersicht.pdf",
     "Formalien/Unterlagen/Dokument01.pdf",

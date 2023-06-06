@@ -1,0 +1,1 @@
+- Matching Problem auf SAT-Problem reduzieren, "Mapping Ontologies using SAT Solvers"
