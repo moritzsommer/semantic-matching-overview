@@ -1,6 +1,6 @@
 Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Literatur|(1)]]
 
-**Einführung**
+## Einführung
 - Umgang mit Uneindeutigkeit und Ambiguität bei Interpretation von domänenspezifischen Inhalten ist wachsendes Forschungsgebiet
 - Ansatz über Ontology Matching
 	- Ontologie ist Vokabular zur syntaktischen und semantischen Beschreibung einer Domäne
@@ -9,17 +9,17 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 	- semantisch äquivalente Entitäten erkennen und einander zuordnen
 	- Übersetzung der Entitäten
 - deutliche Verbesserungen über die letzten Jahre (Stand 2013), Entwicklungskurve flacht ab
-- um dieser Entwicklung entgegenzuwirken, 8 grundlegende Herausforderungen beim Ontology Matching adressieren
-	- Skalierbarkeit von Referenzalignements
-	- Effizienz
-	- Matching unter Berücksichtigung von weiterem Hintergrundwissen
-	- Auswahl, Anpassung und Kombination von Matching-Tools
-	- Nutzereinbindung
-	- Ergebnisevaluation
-	- Soziales Matching
-	- Infrastruktur zur Verwaltung von Alignments
+- um dieser Entwicklung entgegenzuwirken, 8 grundlegende Herausforderungen des Ontology Matchings adressieren
+	- [[#Skalierbarkeit von Referenzalignements]]
+	- [[#Effizienz]]
+	- [[#Matching mit Hintergrundwissen]]
+	- [[#Auswahl, Anpassung und Kombination von Matching-Tools]]
+	- [[#Nutzereinbindung]]
+	- [[#Ergebnisevaluation]]
+	- [[#Kollaboratives Matching]]
+	- [[#Infrastruktur zur Verwaltung von Alignments]]
 
-**Inhaltliche Einführung Ontology Matching**
+## Inhaltliche Einführung Ontology Matching
 ![[Beispiel_Alignment.png]]
 - Ontologien $O_1$ und $O_2$ mit Klassen und Attributen
 	- jeder Eintrag wird allgemein als Entität bezeichnet
@@ -32,7 +32,7 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 	- Variation mit $A^{\prime}$ als zusätzlichem Eingabeparameter, zu erweiterndes Alignment
 *Anmerkung für schriftliche Version: Formale Einführung Alignment und Ontology Matching Problem*
 
-**Anwendungsbeispiele von Matching Services** 
+## Anwendungsbeispiele von Matching Services
 - Matching zwischen Thesauri (Def: Zusammenstellung von Begriffen eines Fachgebietes)
 	- Iconclass und Aria, zwei Thesauri des Rijksmuseums in Amsterdam
 	- Labels für die Kunstwerke, verschiedene Formate und Stile
@@ -40,7 +40,7 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 - Matching von Geoinformationen
 	- hydrografische Karte und topologische Karte zusammensetzen
 
-**Umsetzungsbeispiele von Matching Services**
+## Umsetzungsbeispiele von Matching Services
 - die folgende Tabelle enthält einige Beispiele für Matching Services, die in der Praxis verwendet werden
 	- erste Hälfte der Tabelle enthält allgemeine Informationen 
 	- zweite Hälfte der Tabelle beschreibt die verschiedenen Matching Methoden
@@ -71,7 +71,7 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 [^3]: Linguistic Matcher
 [^4]: Iterative Structural Matcher
 
-**Benchmarks**
+## Benchmarks
 ![[eval.png]]
 - Vergleich führender Matching Tools durch die Ontology Alignment Evaluation Initiative (OAEI) jährlich durchgeführt
 - Qualität Ergebnisse anhand von drei Faktoren bemessen
@@ -87,7 +87,7 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 	- die Tools haben für die betrachteten Testfälle in den letzten Jahren eine durchschnittliche Verbesserung von 108 Prozent erzielt
 	- die Verbesserungsrate verlangsamt sich, messbarer Fortschritt stagniert mit der Zeit
 
-**Skalierbarkeit von Referenzalignements**
+## Skalierbarkeit von Referenzalignements
 - Matching-Tools müssen domänenspezifisch getestet werden, um die Qualität der Ergebnisse und somit die Praktikabilität einschätzen zu können
 - zwei wichtige Ressourcen werden dabei benötigt
 	- umfangreiche Testdatensätze
@@ -105,7 +105,7 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 		- manuelle Zuordnung von Entitäten
 		- semiautomatisches Matching, Zusammenspiel von Matching Tools und Menschen 
 
-**Effizienz**
+## Effizienz
 - Matching Tools müssen die Entitäten großer Ontologien in einem adäquaten Zeitraum verbinden können
 - Laufzeit kann direkt durch Hardware verbessert werden
 	- mehr Arbeitsspeicher und schnellere Prozessoren beschleunigen das Matching, Hardware ist aber häufig begrenzt
@@ -119,13 +119,75 @@ Zusammenfassung *Ontology Matching: State of the Art and Future Challenges* [[Li
 	- optimieren bestehender Algorithmen
 *Anmerkung für schriftliche Version: Kurze Erwähnung der Komplexitätstheorie, oberer Grenzen und O-Notation* 
 
-**Matching mit Hintergrundwissen**
+## Matching mit Hintergrundwissen
+![[background.png]]
 - domänenspezifisches Hintergrundwissen kann die Qualität des Matchings verbessern
 	- bereits vorhandenes Wissen nutzen und neues Wissen ableiten
 	- manche Zusammenhänge nur mit Vorwissen erkennbar
 - Hintergrundwissen unterschiedlich darstellbar, Darstellung muss in OWL übersetzt oder annotiert werden
 	- Internetseiten
 	- Bilder
-- Recall wird auf Kosten der Precision erhöht, Abwägen der beiden Faktoren 
+- Recall wird auf Kosten der Precision erhöht, Abwägen der beiden Faktoren
+- verschiedene Strategien, um mit Mangel an Hintergrundwissen umzugehen
+	- fehlende Axiome manuell formulieren
+	- wiederverwenden von bereits bestehender Alignments
+	- das Internet als Informationsquelle und Hintergrundquelle verwenden
+	- wiederverwenden von domänenspezifischen Ontologien und Textkorpora
 
-**Soziales Matching**
+## Auswahl, Anpassung und Kombination von Matching-Tools
+- viele Matching Tools mit unterschiedlichen Stärken verfügbar
+	- Zusammenspiel verschiedener Tools ist sinnvoll
+	- Zusammenstellen einer individuellen Konfiguration an Matching Tools für den eigenen Gebrauch
+- Benchmarks mit verschiedenen Tests, um die besten Tools für die eigene Anwendungsdomäne zu finden 
+- semiautomatische Interfaces und Frameworks für die simultane Nutzung verschiedener Matching Services
+	- keine vollautomatisierte Lösung
+
+## Nutzereinbindung
+- Mensch als Unterstützer und Kontrollinstanz für ein Matching Tool
+- es ergeben sich zwei grundlegende Problemstellungen
+	- zu viele Korrespondenzen bei der Berechnung eines Alignments, manueller Umgang mit dieser Menge an Daten ist nicht möglich
+	- Alignments müssen benutzerfreundlich dargestellt werden und einfach zu verifizieren sein, da der Endnutzer häufig keinerlei Fachkompetenz im Bereich Ontology Matching besitzt
+-  verschiedene Lösungsansätze
+	- grafische Visualisierung der Alignments
+	- Entwicklung von grafischen Benutzerschnittstellen
+		- größerer Nutzen als noch genauere Matchingalgorithmen, Entwicklungsschwerpunkt sollte angepasst werden
+	- Anpassungsmöglichkeit für den Benutzer, für ihn relevante Entitäten und Korrespondenzen hervorzuheben und weniger relevante Korrespondenzen auszublenden und somit den Matchingalgorithmus individuell anzugleichen
+	- strukturelle Transformationen von Datensätzen durch visuelle Programmiersprachen
+- Endanwender sollte in den Entwicklungsprozess einbezogen werden
+	- Perspektive nimmt Einfluss auf die Anpassung des Tools
+	- attraktiveres Endprodukt
+	- Individualisierungsmöglichkeiten
+	- Marktlücken und Bedürfnisse erkennen
+
+## Ergebnisevaluation
+- der Endanwender muss die Ausgabe eines Matching Services verstehen können, Alignments sind nicht intuitiv verständlich
+	- Matching Tools müssen für eine praktische Anwendung neben den eigentlichen Ergebnissen auch Erklärungsansätze für den Endanwender bereitstellen
+	- Weitergabe von Ausgabe und Erklärung per Schnittstelle an weitere Anwendungen
+- die meisten Erklärungsansätze beziehen sich auf die Infrastruktur und den Matchingalgorithmus, nicht aber auf die individuellen Ergebnisse 
+- weitestgehend unberührte Problematik, aktuell nur wenige Lösungsansätze
+	- intuitives Punktesystem für die Bewertung der Matchingqualität
+	- autogenerierte Reports
+	- Darstellung von Beispielen für bestimmte Korrespondenzen anhand der Eingabedaten
+
+## Kollaboratives Matching
+- einzelne Korrespondenzen und ganze Alignements sollten Gegenstand einer anhaltenden, kritischen Diskussion sein
+	- Bewerten der Ergebnisse anhand von Rankings und Ranking-Algorithmen
+-  Diskussionsplattform müssen geschaffen werden
+	- Standard für den Austausch von Alignments
+	- Nutzer sollten Alignments teilen, bearbeiten, suchen und diskutieren können
+- Crowdsourcing für manuelles Matching nutzen
+	- geringer Arbeitsaufwand pro Person
+	- stetige Verbesserung durch weitere Teilnehmer
+	- Fehlerquote wird minimiert
+
+## Infrastruktur zur Verwaltung von Alignments
+- mit Bezug auf die [[#Nutzereinbindung]] beim Ontology Matching ist der Austausch von Alignments eine essenzielle Grundlage für kollaboratives Arbeiten
+- Notwendigkeit besteht, einen Standard für Alignments einzuführen
+	- aktuell wird das Format der OAEI verwendet
+- zwei Arten von Software für die Verwaltung von Alignments
+	- Middleware zum Speichern und Modifizieren von Alignments
+	- Softwareumgebungen für den direkten Zugriff auf spezifische Alignments
+- beispielsweise ist das Cupboard system ist eine Laufzeitumgebung für die Verwaltung von Alignments
+	- finden von Alignments im Web
+	- verbinden von Alignments
+	- registrieren von Alignments mit anschließendem Ranking durch die Nutzer
