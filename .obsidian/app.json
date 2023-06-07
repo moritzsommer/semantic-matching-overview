@@ -32,7 +32,8 @@
     "Matchingalgorithmen",
     "Matchingqualität",
     "autogenerierte",
-    "Alignements"
+    "Alignements",
+    "Referenzalignments"
   ],
   "promptDelete": false
 }

@@ -1,6 +1,6 @@
-- Matching Problem auf SAT-Problem reduzieren, "Mapping Ontologies using SAT Solvers"
+- sehr fixe Idee: Matching Problem auf SAT-Problem reduzieren, "Mapping Ontologies using SAT Solvers"
 - NLP nutzen
 - Axiome aufbauen und Ableitungsregeln verwenden
 - sehr fixe Idee (könnte Spaß machen): Crowdsourcing für den Aufbau eines Referenzalignments nutzen
 	- Ergebnispräsentation am Ende der BA für Interessierte bereitstellen, falls es wirklich funktioniert
-	- Anwendungsdomäne Industrie 4.0 schränkt Zielgruppe für Crowdsourcing erheblich ein
+	- Anwendungsdomäne Industrie 4.0 schränkt Zielgruppe für Crowdsourcing erheblich ein 
