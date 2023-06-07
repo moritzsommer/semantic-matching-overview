@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inhalt/Ontology Matching.md",
+                "file": "Temp Ideen.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Inhalt/Ontology Matching.md",
+                "file": "Temp Ideen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Inhalt/Ontology Matching.md",
+                "file": "Temp Ideen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Inhalt/Ontology Matching.md"
+                "file": "Temp Ideen.md"
               }
             }
           }
@@ -156,25 +156,25 @@
   },
   "active": "fc3a56a06be46a8e",
   "lastOpenFiles": [
+    "Temp Fragen.md",
+    "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
+    "Temp Ideen.md",
+    "Inhalt/Ontology Matching.md",
+    "Inhalt/OWL.md",
+    "Inhalt/OWL-Ontologien.md",
+    "Inhalt/RDF.md",
     "Inhalt/XML.md",
     "Inhalt/URI.md",
     "Inhalt/Semantik.md",
     "Inhalt/Semantic Web.md",
-    "Inhalt/RDF.md",
-    "Inhalt/OWL-Ontologien.md",
-    "Inhalt/OWL.md",
-    "Inhalt/Ontology Matching.md",
     "Formalien/Literatur.md",
     "Formalien/Inoffizielle Literatur.md",
     "Formalien/Abbildungsverzeichnis.md",
-    "Temp Ideen.md",
-    "Temp Fragen.md",
     "README.md",
     "Index.md",
     "Three laws of motion.md",
     "Formalien/Abbildungen/background.png",
     "Formalien/Abbildungen/background 1.png",
-    "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
     "Formalien/Unbenannt.md",
     "Inhalt/Unbenannt.md",
     "Formalien/Abbildungen/eval.png",
