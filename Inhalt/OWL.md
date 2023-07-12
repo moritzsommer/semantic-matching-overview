@@ -37,6 +37,7 @@ Das Beispiel beschreibt die Begriffe Person, Gender und Woman. Eine Frau ist def
     <rdfs:range rdf:resource="#Gender"/>
     <rdfs:domain rdf:resource="#Person"/>
   </owl:ObjectProperty>
+  
   <owl:DatatypeProperty rdf:ID="name"
      rdf:type="http://www.w3.org/2002/07/owl#FunctionalProperty">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>

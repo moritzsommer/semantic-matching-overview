@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "302183a48c541e5c",
+        "id": "62923e00a0a7f139",
         "type": "tabs",
         "children": [
           {
-            "id": "fc3a56a06be46a8e",
+            "id": "2843226edb799b9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp Ideen.md",
+                "file": "Temp Notizen.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 517.5
   },
   "right": {
     "id": "235d61ad73b97d8a",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp Ideen.md",
+                "file": "Temp Notizen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Temp Ideen.md",
+                "file": "Temp Notizen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Temp Ideen.md"
+                "file": "Temp Notizen.md"
               }
             }
           }
@@ -154,24 +154,27 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "fc3a56a06be46a8e",
+  "active": "14442a7c4ceb4e37",
   "lastOpenFiles": [
-    "Temp Fragen.md",
+    "Formalien/Literatur.md",
+    "Temp Notizen.md",
+    "ToDo.md",
     "Formalien/Unterlagen/Exposé_Moritz_Sommer.pdf",
+    "Formalien/Unterlagen/Zeitplan_Moritz_Sommer.pdf",
     "Temp Ideen.md",
+    "Temp Fragen.md",
+    "README.md",
     "Inhalt/Ontology Matching.md",
-    "Inhalt/OWL.md",
-    "Inhalt/OWL-Ontologien.md",
-    "Inhalt/RDF.md",
+    "Index.md",
     "Inhalt/XML.md",
     "Inhalt/URI.md",
     "Inhalt/Semantik.md",
     "Inhalt/Semantic Web.md",
-    "Formalien/Literatur.md",
+    "Inhalt/RDF.md",
+    "Inhalt/OWL-Ontologien.md",
+    "Inhalt/OWL.md",
     "Formalien/Inoffizielle Literatur.md",
     "Formalien/Abbildungsverzeichnis.md",
-    "README.md",
-    "Index.md",
     "Three laws of motion.md",
     "Formalien/Abbildungen/background.png",
     "Formalien/Abbildungen/background 1.png",
@@ -179,7 +182,6 @@
     "Inhalt/Unbenannt.md",
     "Formalien/Abbildungen/eval.png",
     "Formalien/Abbildungen/eval 1.png",
-    "Formalien/Unterlagen/Zeitplan_Moritz_Sommer.pdf",
     "Formalien/Abbildungen/1.png",
     "Formalien/Abbildungen/Beispiel_Alignment.png",
     "Formalien/Abbildungen/RDF_Graph.png",
@@ -198,8 +200,6 @@
     "Formalien/Abbildungen/1 1.png",
     "Formalien/Abbildungen",
     "test.md",
-    "1.md",
-    "semantischen Kontext angereicht.md",
     "Formalien",
     "Formalien/Unterlagen"
   ]
